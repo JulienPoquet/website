@@ -1,0 +1,130 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 70%;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 70px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#collections {
+    background-color: #fff;
+}
+
+.montre {
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    margin: 2.5%;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-radius: 4px;
+}
+
+.montre img {
+    max-width: 100%;
+}
+
+.montre h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.montre p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #555;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-weight: 500;
+}
